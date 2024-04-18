@@ -1,0 +1,98 @@
+body{
+
+margin: 0;
+font-family: 'MyFont';
+
+}
+
+@font-face {
+font-family: 'MyFont';
+src: url('bebas-neue-bold.ttf') format('truetype');
+}
+
+#nachalo{
+background-image: url("bg_nach.png");
+height: 916px;
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
+
+.title_text{
+padding-top: 206px;
+color: white;
+font-size: 128pt;
+text-align: center;
+}
+
+.pod_text{
+padding-top: 39px;
+color: white;
+font-size: 19pt;
+letter-spacing: 16px;
+text-align: center;
+}
+
+.btn_titl{
+
+margin-top: 111px;
+text-align: center;
+
+}
+
+#pod_menu{
+
+	background-size: 100%;
+	height: 80px;
+	background-image: url("men.png");
+
+}
+
+.image_cloud{
+
+	margin-left: 315px;
+	margin-top: 139px;
+	float: left;
+
+}
+
+.osnova_text{
+
+float: left;
+margin-left: 254px;
+margin-top: 120px;
+
+
+}
+
+#osnova{
+
+	height: 507px;
+
+}
+
+#konec{
+
+background-image: url("bg_kon.png");
+height: 687px;
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
+
+.kon_text{
+
+	margin-right: 106px;
+	margin-top: 210px;
+	float: right;
+
+}
+
+#pod_konec{
+
+background-image: url("kon.png");
+height: 138px;
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
