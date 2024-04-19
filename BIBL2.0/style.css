@@ -164,3 +164,50 @@ height: 465px;
     float: left;
     
     }
+
+#kon{
+    margin-top: 536px;
+	background-image: url("k.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 956px;
+}
+
+#tabl{
+    margin-left: 35%;
+    background-color: #141211;
+    width: 30%;
+    height: 650px;
+    top: 200px;
+
+}
+
+.wrapper {
+    /* Наше поля ввода будет прозрачным, поэтому добавим блок-обертку с цветом */
+    width: 500px;
+    height: 100px;
+    text-align: center;
+
+  }
+  
+  input {
+    /* Делает само поле ввода прозрачным */
+    background: transparent;
+    /* Убираем рамки вокруг поля ввода */
+    border: none;
+    /* Добавим нижнюю черту для красоты */
+    border-bottom: 2px solid #ffffff;
+  }
+  
+
+  #menu3 a {
+	margin-left: 20%;
+    margin-top: 100px;
+	padding: 10px;
+	width: 150px;
+	font: 15px;
+	text-decoration: none;
+	color: black;
+	background-color: #FC5107;
+	text-align: center;
+}
