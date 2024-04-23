@@ -1,0 +1,6 @@
+AuthType Basic
+AuthyName "Admin Panel"
+
+AuthUserFile D:\23p shubin\OpenServer\domains\saitik\admin\.htpasswd
+Require valid-user
+
