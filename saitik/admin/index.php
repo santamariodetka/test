@@ -1,7 +1,7 @@
 <?php
 
-require_once("D:\prosto\OpenServer\domains\saitik\database.php"); 
-require_once("D:\prosto\OpenServer\domains\saitik\models\articles.php");
+require_once("D:\prosto\openserver\domains\saitik\database.php"); 
+require_once("D:\prosto\openserver\domains\saitik\models\articles.php");
 
 $link = db_connect();
 
@@ -26,9 +26,13 @@ if ($action == "add") {
 		articles_edit($link, $id, $_POST['title'], $_POST['date'], $_POST['content']);
 		header("Location: index.php");
 	}
-
 	$article = articles_get ($link, $id);
 	include("D:\prosto\openserver\domains\saitik\Views\article_admin.php");
+} else if($action = "delete"){
+
+		$id = $_GET['id'];
+		$article = articles_delete($link, $id);
+		header("Location: index.php");
 }
 else {
 	$articles = articles_all($link);

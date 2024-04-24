@@ -12,11 +12,11 @@
         <div>
         <?php foreach ($articles as $a): ?>
             <div class="article">
-        <h3><a hraf="articla.php?id=<?=$a['id']?>"><?=$a["title"]?></a></h3>
+        <h3><a hraf="article.php?id=<?=$a['id']?>"><?=$a["title"]?></a></h3>
         <em>Опубликовано: <?=$a['date']?></em>
-        <p><?=$a['content']?></p>
+        <p><?=articles_intro($a['content'])?></p>
     </div>
-    <?php endforeach ?>
+    <?php endforeach?>
     </div>
         <footer>
             <p>Концепция MVC<br>Сopyright &copy; 2018</p>

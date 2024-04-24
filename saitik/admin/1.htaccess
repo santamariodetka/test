@@ -1,6 +1,6 @@
 AuthType Basic
 AuthyName "Admin Panel"
 
-AuthUserFile D:\23p shubin\OpenServer\domains\saitik\admin\.htpasswd
+AuthUserFile D:\prosto\openserver\domains\saitik\admin\1.htpasswd
 Require valid-user
 

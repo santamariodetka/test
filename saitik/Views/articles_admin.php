@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf8">
 	<title>Концепция MVC</title>
-	<link rel="stylesheet" href="D:\23p_shubin\OpenServer\domains\saitik\style.css">
+	<link rel="stylesheet" href="D:\prosto\openserver\domains\saitik\style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
