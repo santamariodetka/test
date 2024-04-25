@@ -66,7 +66,7 @@ function articles_delete($link,$id) {
 	if ($id == 0)
 	return false;
 
-	$query = $printf("DELETE FROM articles WHERE id = '%d'", $id);
+	$query = sprintf("DELETE FROM articles WHERE id = '%d'", $id);
 	$result = mysqli_error($link, $query);
 
 	if (!$result)
