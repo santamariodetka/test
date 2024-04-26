@@ -1,0 +1,139 @@
+.menu{
+	margin-top: 78px;
+	margin-right: 84px;
+	float: right;
+  width: 475px;
+  height: 57px;
+  background-image: url("1_1.png");
+}
+
+@media  screen and (min-width: 525px) {
+  .header-pc {
+    display: block
+  }
+  .header-mobile {
+    display: none
+  }
+}
+
+@media  screen and (max-width: 525px) {
+  .header-pc {
+    display: none
+  }
+  .header-mobile {
+    display: block
+  }
+}
+
+.menu:hover {
+
+background-image: url ("1_2.png"); 
+
+}
+
+#konec{
+
+  background-image: url("konec.png");
+  height: 947px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.titl{
+
+	margin-top: 220px;
+	margin-left: 156px;
+	float: left;
+
+}
+
+
+.titl_btn{
+
+	margin-top: 571px;
+	float: left;
+	position: absolute;
+	left: 160px;
+
+}
+
+.os_1{
+
+float: left;
+
+}
+
+.os_2{
+
+float: right;
+margin-right: 150px;
+margin-top: 150px;
+
+}
+
+.os_3{
+
+
+
+float: left;
+margin-right: 150px;
+margin-top: 150px;
+}
+
+.os_4{
+float: right;
+}
+
+
+
+#osnova{
+
+background-color: white;
+height: 1207px;
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
+body{
+
+margin: 0;
+
+}
+
+.resp{
+
+margin-bottom: 50px;
+margin-right: 50px;
+
+}
+
+
+   #nach{
+
+   background-image: url("nachalo.png");
+	height: 947px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+
+   }
+
+
+#cl_1{
+
+height: 732.54px;
+width: 100%;
+
+}
+
+#cl_2{
+
+height: 832.37px;
+width: 100%;
+
+}
+
+
+
+
+
+

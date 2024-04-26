@@ -1,0 +1,54 @@
+#nachalo{
+
+background-image:url("nachalo.png"); 
+background-size: cover;
+background-repeat: no-repeat;
+height: 950px;
+
+}
+
+body{
+
+margin: 0;
+
+}
+
+.men{
+
+float: right;
+margin-right: 150px;
+margin-top: 100px;
+
+}
+
+#menu{
+
+height: 135px;
+width: 100%;
+
+}
+
+#title{
+
+height: 815px;
+width: 100%;
+
+}
+
+  	.knopka1 {
+    border: 2px solid #fff; /* Параметры рамки */
+    background-color: inherit;
+    color: white; /* Цвет фона */
+
+    font-size: 14px; /* Размер текста */
+    padding: 15px 30px; /* Поля вокруг текста */
+   }
+
+  	.knopka2 {
+
+    background-color: inherit;
+    color: white; /* Цвет фона */
+
+    font-size: 14px; /* Размер текста */
+    padding: 15px 30px; /* Поля вокруг текста */
+   }
